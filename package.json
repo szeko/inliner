@@ -3,6 +3,7 @@
   "description": "Utility to inline images, CSS and JavaScript for a web page - useful for mobile sites",
   "homepage": "http://github.com/remy/inliner",
   "main": "lib/index.js",
+  "version": "1.6.2",
   "scripts": {
     "test": "jscs -v cli/*.js lib/*.js && node test/*.test.js --cov",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
